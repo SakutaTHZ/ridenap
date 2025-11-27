@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Leaflet overrides */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Custom Div Icon for current location pulse effect */
+.custom-div-icon {
+  background: transparent;
+  border: none;
+}
+
+/* PWA Safe Area */
+body {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  background-color: #0f172a; /* Slate 900 fallback */
+}

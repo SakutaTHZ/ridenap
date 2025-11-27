@@ -1,0 +1,7 @@
+{
+  "name": "RideNap",
+  "description": "Sleep safely on your commute. Wake up exactly when you arrive.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
